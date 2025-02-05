@@ -39,13 +39,13 @@ const routes = [
     ]
   },
   {
-    path: '/about-us',
+    path: '/about',
     name: 'About',
     component: About,
     alias: '/abc'
   },
   {
-    path: '/about',
+    path: '/about-us',
     redirect: { name: 'About' }
   },
   // {
